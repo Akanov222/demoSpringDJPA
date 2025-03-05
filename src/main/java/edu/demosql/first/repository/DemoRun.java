@@ -17,15 +17,15 @@ public class DemoRun {
         ProductDaoImpl productDao2 = new ProductDaoImpl();
         productDao2.createTableProduct();
 
-        Product product3 = new Product("X", 444, "NewPhone1");
+        Product product3 = new Product("X", 1111, "NewPhone1");
         ProductDaoImpl productDao3 = new ProductDaoImpl();
         productDao3.saveProduct(product3);
 
-        Product product4 = new Product("Y", 555, "NewPhone2");
+        Product product4 = new Product("Y", 2222, "NewPhone2");
         ProductDaoImpl productDao4 = new ProductDaoImpl();
         productDao4.saveProduct(product4);
 
-        Product product5 = new Product("Z", 777, "NewPhone3");
+        Product product5 = new Product("Z", 3333, "NewPhone3");
         ProductDaoImpl productDao5 = new ProductDaoImpl();
         productDao5.saveProduct(product5);
 
@@ -46,15 +46,15 @@ public class DemoRun {
         PcDaoImpl pcDao2 = new PcDaoImpl();
         pcDao2.createTablePc();
 
-        Pc pc3 = new Pc(1232,500,64, 5.0F, "12x", 600.00F);
+        Pc pc3 = new Pc(222,500,64, 5.0F, "12x", 600.00F);
         PcDaoImpl pcDao3 = new PcDaoImpl();
         pcDao3.saveOnePc(pc3);
 
-        Pc pc4 = new Pc(1121,750,128, 14.0F, "40x", 850.00F);
+        Pc pc4 = new Pc(333,750,128, 14.0F, "40x", 850.00F);
         PcDaoImpl pcDao4 = new PcDaoImpl();
         pcDao4.saveOnePc(pc4);
 
-        Pc pc5 = new Pc(1233,500,64, 5.0F, "12x", 600.00F);
+        Pc pc5 = new Pc(444,500,64, 5.0F, "12x", 600.00F);
         PcDaoImpl pcDao5 = new PcDaoImpl();
         pcDao5.saveOnePc(pc5);
 
